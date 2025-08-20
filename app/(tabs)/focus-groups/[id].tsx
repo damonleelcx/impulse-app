@@ -1,7 +1,8 @@
-import { ChatInput } from '@/app/components/ChatInput';
-import { MessageItem } from '@/app/components/MessageItem';
-import { useFocusGroups } from '@/app/contexts/FocusGroupsContext';
-import { Message } from '@/app/types';
+
+import { ChatInput } from '@/components/focus-groups/ChatInput';
+import { MessageItem } from '@/components/focus-groups/MessageItem';
+import { useFocusGroups } from '@/contexts/FocusGroupsContext';
+import { Message } from '@/types';
 import { Stack, router, useLocalSearchParams } from 'expo-router';
 import React, { useEffect, useRef } from 'react';
 import { Alert, FlatList, StyleSheet, Text, View } from 'react-native';

@@ -1,6 +1,6 @@
+import { FocusGroupsProvider } from '@/contexts/FocusGroupsContext';
 import { Tabs } from 'expo-router';
 import React from 'react';
-import { FocusGroupsProvider } from '../contexts/FocusGroupsContext';
 
 export default function TabLayout() {
   return (

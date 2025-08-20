@@ -1,4 +1,4 @@
-import { FocusGroup } from '../types';
+import { FocusGroup } from "@/types";
 
 export const mockGroups: FocusGroup[] = [
   {

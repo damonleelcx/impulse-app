@@ -1,6 +1,7 @@
+import { currentUser, mockGroups } from '@/constants/mockData';
+import { FocusGroup, Message } from '@/types';
 import React, { createContext, ReactNode, useCallback, useContext, useState } from 'react';
-import { currentUser, mockGroups } from '../constants/mockData';
-import { FocusGroup, Message } from '../types';
+
 
 interface FocusGroupsContextType {
   groups: FocusGroup[];

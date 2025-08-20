@@ -1,6 +1,6 @@
+import { Message } from '@/types';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Message } from '../types';
 
 interface MessageItemProps {
   message: Message;

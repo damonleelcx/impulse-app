@@ -1,5 +1,5 @@
-import { GroupCard } from '@/app/components/GroupCard';
-import { useFocusGroups } from '@/app/contexts/FocusGroupsContext';
+import { GroupCard } from '@/components/focus-groups/GroupCard';
+import { useFocusGroups } from '@/contexts/FocusGroupsContext';
 import { router } from 'expo-router';
 import React from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';

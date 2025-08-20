@@ -1,6 +1,6 @@
+import { FocusGroup } from '@/types';
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { FocusGroup } from '../types';
 
 interface GroupCardProps {
   group: FocusGroup;
